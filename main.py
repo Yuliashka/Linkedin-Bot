@@ -23,11 +23,11 @@ time.sleep(2)
 
 # FILLING IN LOGIN FORM:
 email = driver.find_element_by_name("session_key")
-email.send_keys("laramera@outlook.it")
+email.send_keys("your mail")
 
 time.sleep(2)
 password = driver.find_element_by_name("session_password")
-password.send_keys("francesco135")
+password.send_keys("your password")
 
 time.sleep(2)
 enter_button = driver.find_element_by_xpath('//*[@id="organic-div"]/form/div[3]/button')
